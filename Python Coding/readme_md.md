@@ -2,7 +2,7 @@
 
 An Object-Oriented Python data pipeline built for Health Technology Assessment (HTA) modeling, Multi-Criteria Decision Analysis (MCDA), and 10-year financial forecasting across Nova Scotia Health zones. 
 
-This repository contains the backend Python modeling engine (`IntegratedHealthcareHTAPipeline`) that processes clinical, operational, labor, and financial parameters into two structured CSV datasets for downstream visual analytics and reporting.
+This repository contains the backend Python modeling engine that processes clinical, operational, labor, and financial parameters into two structured CSV datasets for downstream visual analytics and reporting.
 
 ---
 
