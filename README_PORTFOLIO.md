@@ -13,7 +13,7 @@ This repository operationalizes Nova Scotia’s ***Action Plan for Health*** by 
    • 10-Submetric Rubric         • Nurse Triage (NSNU)           • 10-Yr Cost/Savings Model       • ICER Trade-Off Analysis
 ```
 
-### 1. Health Technology Assessment (HTA) Framework (`Health Technology Assessment (HTA)/Health Technology Assessment (HTA) Framework - Holmes.pdf`)
+### 1. Health Technology Assessment (HTA) Framework (<Health Technology Assessment (HTA)/Health Technology Assessment (HTA) Framework - Holmes.pdf>)
 * **Governance Workflow:** Establishes a 4-stage pipeline (**Intake $\rightarrow$ Technical Review $\rightarrow$ MCDA Scoring $\rightarrow$ Treasury Board Sign-Off**) for capital investments ($> \$250\text{k}$).
 * **Weighted Rubric:** Scores proposals across **Clinical Quality (30%)**, **Fiscal Accountability (30%)**, **Health Equity (25%)**, and **System Sustainability (15%)**.
 * **Capital Decision Triage:** Classifies projects into Tier 1 (Accelerated $\ge 85$), Tier 2 (Conditional 65–84), and Tier 3 (Deferral $< 65$).
