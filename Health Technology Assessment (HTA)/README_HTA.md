@@ -14,7 +14,7 @@ Health care capital allocation frequently suffers from subjective prioritization
 ## ⚡ Core Framework Architecture
 
 ### 1. The 4-Stage Governance Lifecycle
-$$\text{Strategic Intake} \longrightarrow \text{Technical Assessment (Clinical \and Financial)} \longrightarrow \text{MCDA Scoring} \longrightarrow \text{Governance Sign-Off}$$
+$$\text{Strategic Intake} \longrightarrow \text{Technical Assessment (Clinical and Financial)} \longrightarrow \text{MCDA Scoring} \longrightarrow \text{Governance Sign-Off}$$
 
 * **Intake & Technical Vetting:** Projects pass baseline regulatory and cybersecurity screening before undergoing independent clinical safety and total cost of ownership (TCO) financial modeling.
 * **MCDA Indexing:** Proposals are quantitatively scored across 10 sub-metrics to generate a normalized **Strategic Priority Score (0–100)**.
