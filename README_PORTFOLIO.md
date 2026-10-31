@@ -1,6 +1,6 @@
 # 🏥 Health Strategy & Capital Governance Portfolio
 
-**Brianna Holmes** | Targeted for Senior Strategist (Data Visualization & Sustainability), Department of Health and Wellness (DHW), Nova Scotia
+Targeted for Senior Strategist (Data Visualization & Sustainability), Department of Health and Wellness (DHW), Nova Scotia
 
 ---
 
