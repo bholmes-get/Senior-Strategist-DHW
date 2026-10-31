@@ -7,7 +7,7 @@ An executive-level Power BI analytics suite designed to evaluate regional deploy
 ## 💡 Executive Summary
 
 <p align="center">
-  <img src="screenshots/executive-summary.png" width="900px" alt="Executive Summary Dashboard">
+  <img src="Dashboards/Screenshots/executive-summary.png" width="900px" alt="Executive Summary Dashboard">
 </p>
 
 ### Key Takeaways
