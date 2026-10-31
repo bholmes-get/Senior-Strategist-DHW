@@ -20,7 +20,7 @@ An executive-level Power BI analytics suite designed to evaluate regional deploy
 ## 📈 10-Year Financial Forecast
 
 <p align="center">
-  <img src="screenshots/financial-forecast.png" width="900px" alt="10 Year Financial Forecast Dashboard">
+  <img src="Screenshots/financial-forecast.png" width="900px" alt="10 Year Financial Forecast Dashboard">
 </p>
 
 ### Financial Dynamics & Insights
@@ -33,7 +33,7 @@ An executive-level Power BI analytics suite designed to evaluate regional deploy
 ## 🧭 Decision Framework & Cost-Utility Trade-Offs
 
 <p align="center">
-  <img src="screenshots/executive-decision-matrix.png" width="900px" alt="Executive Decision Matrix Dashboard">
+  <img src="Screenshots/executive-decision-matrix.png" width="900px" alt="Executive Decision Matrix Dashboard">
 </p>
 
 ### MCDA Score Decomposition
