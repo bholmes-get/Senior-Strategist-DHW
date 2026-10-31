@@ -1,4 +1,4 @@
-# 🏥 Nova Scotia Health - HTA & Financial Data Engineering Pipeline
+# 🏥 Health Technology Assessment(HTA) & Financial Data Engineering Pipeline
 
 An Object-Oriented Python data pipeline built for Health Technology Assessment (HTA) modeling, Multi-Criteria Decision Analysis (MCDA), and 10-year financial forecasting across Nova Scotia Health zones. 
 
