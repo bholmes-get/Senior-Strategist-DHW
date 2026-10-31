@@ -1,4 +1,4 @@
-# 📊 Healthcare Regional Evaluation & Financial Decision Matrix
+# 📊 Dashboard Modeling HTA & Business Case
 
 An executive-level Power BI analytics suite designed to evaluate regional deployment models across healthcare delivery zones. This dashboard synthesizes 10-year financial forecasting with Multi-Criteria Decision Analysis (MCDA) and incremental cost-effectiveness metrics (ICER) to guide strategic healthcare investments.
 
