@@ -1,56 +1,49 @@
 # 🏥 Health Strategy & Capital Governance Portfolio
-**Brianna Holmes** | Targeted for Senior Strategist, Department of Health and Wellness (DHW), Nova Scotia
 
-This repository operationalizes Nova Scotia’s ***Action Plan for Health*** by bridging health policy, capital allocation governance, data engineering, and executive analytics. It demonstrates an end-to-end framework for evaluating health technology investments, optimizing regional equity, and driving fiscal accountability.
-
----
-
-## 🎯 Portfolio Architecture & Core Artifacts
-
-```
-[ HTA Governance Policy ] ──► [ Strategic Business Case ] ──► [ Python Data Pipeline ] ──► [ Power BI Executive Dashboard ]
-   • 4-Stage Lifecycle           • Big 3 Chronic Care            • MCDA Normalization             • Capital Triage Matrix
-   • 10-Submetric Rubric         • Nurse Triage (NSNU)           • 10-Yr Cost/Savings Model       • ICER Trade-Off Analysis
-```
-
-### 1. Health Technology Assessment (HTA) Framework (<Health Technology Assessment (HTA)/Health Technology Assessment (HTA) Framework - Holmes.pdf>)
-* **Governance Workflow:** Establishes a 4-stage pipeline (**Intake $\rightarrow$ Technical Review $\rightarrow$ MCDA Scoring $\rightarrow$ Treasury Board Sign-Off**) for capital investments ($> \$250\text{k}$).
-* **Weighted Rubric:** Scores proposals across **Clinical Quality (30%)**, **Fiscal Accountability (30%)**, **Health Equity (25%)**, and **System Sustainability (15%)**.
-* **Capital Decision Triage:** Classifies projects into Tier 1 (Accelerated $\ge 85$), Tier 2 (Conditional 65–84), and Tier 3 (Deferral $< 65$).
-
-### 2. Strategic Business Case: Rural Remote Care (`docs/Business_Case_Remote_Care.pdf`)
-* **Targeting High-Density Chronic Care:** Focuses on CHF, COPD, and Diabetes in the Northern, Eastern, and Western zones to alleviate Central Zone (HRM) hospital congestion.
-* **Nurse-Driven Maximization Model:** Leverages LPN, RN, and NP scopes under the NSNU collective agreement.
-* **Software Cost-Avoidance:** Piggybacks on existing provincial software investments (**OPOR** and **Microsoft 365 / Teams for Healthcare**) for a zero-dollar marginal software footprint.
-* **Impact:** Cuts ED visits by **22%**, reduces acute LOS by **15%**, avoids **13,000 acute bed days/yr** by Year 10, and yields **\$31.57M in net annual savings**.
-
-### 3. Quantitative Data & Financial Engine (`src/HTA_Pipeline.ipynb`)
-* **Object-Oriented Python Pipeline:** Models zone boundaries, disease cohorts, inflation, and NSNU pay scale steps.
-* **MCDA Indexing Engine:** Applies Min-Max normalization to calculate composite strategic priority scores (0–100).
-* **Automated Data Outputs:** Exports standardized CSV data for downstream BI ingestion (`ns_health_mcda_pillars_output.csv` and `ns_health_10yr_financial_forecast.csv`).
-
-### 4. Interactive BI Executive Dashboard (`docs/Dashboard_Deck.pdf`)
-* **Executive Decision Matrix:** Prioritizes high-performing regional investments (**Western Zone: MCDA 66.91, Rank 1**; **Northern Zone: MCDA 57.36, Rank 2**).
-* **Cost-Utility & Trade-Off Analytics:** Visualizes ICER vs. MCDA score plots to identify high-value deployments ($< \$50\text{k/QALY}$).
+**Brianna Holmes** | Targeted for Senior Strategist (Data Visualization & Sustainability), Department of Health and Wellness (DHW), Nova Scotia
 
 ---
 
-## 🛠️ Mapping to DHW Senior Strategist Requirements
+## Executive Summary & Strategic Fit
 
-| DHW Competency | Portfolio Evidence | Key Impact / Value Delivered |
+This portfolio demonstrates an end-to-end policy governance, business case, and quantitative analytics engine built specifically for the **Nova Scotia Department of Health and Wellness (DHW)**. Designed to directly support the mandates of the ***Action Plan for Health***, this work bridges high-level health system strategy with execution, data engineering, and multi-criteria investment decision-making.
+
+As a **Senior Strategist**, driving health system transformation requires balancing clinical efficacy, fiscal discipline, regional equity, and long-term sustainability. This portfolio operationalizes those exact requirements across four integrated artifacts:
+
+1. **[Strategic Policy & Governance Framework](<Health Technology Assessment (HTA)/Health Technology Assessment (HTA) Framework - Holmes.pdf>):** Standardized Health Technology Assessment (HTA) capital allocation framework for investments ($> \$250,000$).
+2. **[Decentralized Business Case & Capital Proposal](<Business Case/Business Case Summary - Decentralized Remote Care Holmes.pdf>):** A low-carbon, nurse-led virtual/remote patient monitoring (RPM) delivery model for rural Nova Scotia.
+3. **[Data Engineering & Financial Pipeline](<Python Coding/HTA_&_Financial_ROI_Modeling_Code.ipynb>):** Production-ready Python pipeline executing multi-criteria decision analysis (MCDA) indexing and 10-year financial forecasting.
+4. **[Interactive BI Executive Dashboard](<Dashboards/Dashboard - Holmes 10.31.2026.pbix>):** Power BI visualization suite for capital decision triage, ICER trade-offs, and zone-level prioritization.
+
+---
+
+## Portfolio Components & Core Competencies
+
+### 1. Strategic Governance & Policy Framework (HTA Framework)
+* **Artifact:** [`Health Technology Assessment (HTA) Framework - Holmes.pdf`](<Health Technology Assessment (HTA)/Health Technology Assessment (HTA) Framework - Holmes.pdf>)
+* **Key Focus:** 4-Stage Governance Workflow (**Intake $\rightarrow$ Technical Assessment $\rightarrow$ MCDA Scoring $\rightarrow$ Governance Sign-Off**) and a 10-submetric weighted rubric across Clinical Quality (30%), Fiscal Accountability (30%), Health Equity (25%), and Environmental Sustainability (15%). Defines clear capital triage thresholds (**Tier 1 Accelerated $\ge 85$**, **Tier 2 Conditional 65–84**, **Tier 3 Deferral $< 65$**).
+
+### 2. Strategic Business Case & Operational Plan
+* **Artifact:** [`Business Case Summary - Decentralized Remote Care Holmes.pdf`](<Business Case/Business Case Summary - Decentralized Remote Care Holmes.pdf>)
+* **Key Focus:** Targets chronic disease clusters (CHF, COPD, Type 2 Diabetes) in rural health zones (Northern, Eastern, Western). Employs a nurse-led scope maximization model (LPNs, RNs, NPs) with zero marginal software costs by leveraging existing provincial investments (**One Person One Record / OPOR** and **Microsoft 365 / Teams for Healthcare**). Achieves **\$31.57M in annual net savings** and **13,000 avoided acute bed days** by Year 10.
+
+### 3. Data Engineering & Financial Forecasting Engine
+* **Artifact:** [`HTA_&_Financial_ROI_Modeling_Code.ipynb`](<Python Coding/HTA_&_Financial_ROI_Modeling_Code.ipynb>)
+* **Key Focus:** Object-oriented Python code modeling NSNU collective agreement salary steps, inflation factors, and dynamic acute care triage vs. inpatient bed-day savings closures. Standardizes raw metrics using Min-Max normalization to calculate composite 0–100 MCDA priority scores.
+
+### 4. Interactive Executive BI Dashboard
+* **Artifact:** [`Dashboard - Holmes 10.31.2026.pbix`](<Dashboards/Dashboard - Holmes 10.31.2026.pbix>)
+* **Key Focus:** Translates complex data into visual decision matrices for leadership, identifying top regional priorities (**Western Zone: MCDA 66.91, Rank 1**) and mapping cost-utility trade-offs (**ICER vs. MCDA Score**).
+
+---
+
+## Alignment with DHW Senior Strategist Requirements
+
+| DHW Senior Strategist Requirement | Portfolio Evidence & Artifact | Demonstrated Impact |
 | :--- | :--- | :--- |
-| **Health Policy & Capital Planning** | HTA Framework & Business Case | Standardized provincial governance aligned with the *Action Plan for Health*. |
-| **Financial Modeling & TCO** | 10-Year Financial Forecast Engine | Quantified 7-year TCO, ICER thresholds, and multi-million dollar system savings. |
-| **Data Analytics & Engineering** | Python Analytics Pipeline | Automated, reproducible data transformations for complex health metrics. |
-| **Health Equity & Rural Access** | Zone-Level Regional Modeling | Addressed HRM vs. rural care disparities by prioritizing non-Central zones. |
-| **Executive Communication** | Power BI Dashboard Deck | Translated complex quantitative models into executive decision frameworks. |
-
----
-
-## 🚀 Quick Start (Running the Analytical Pipeline)
-
-```bash
-# Clone repository and execute the analytical engine
-python src/HTA_Pipeline.py
-```
-*Outputs generated in `generated/` directory for Power BI refresh.*
+| **Evidence Synthesis & Risk Identification** | HTA Governance, Risk Matrix, & Business Case | Synthesized multi-source evidence (CCDSS disease registries, NSNU agreements, PHIA compliance, RCT efficacy) to map systemic risks, rural connectivity deficits, and frontline burnout mitigations. |
+| **Strategic Planning & Health Policy** | HTA Governance Framework & Business Case | Formulated provincial capital governance aligned with the *Action Plan for Health*. |
+| **Capital Allocation & Financial Modeling** | 10-Year Financial Forecast & NSNU Wage Engine | Modeled TCO, ICER trade-offs, and multi-million dollar net savings runway. |
+| **Data Analytics & Quantitative Methods** | Python MCDA Normalization Pipeline | Built automated, reproducible data engineering scripts for complex health metrics. |
+| **Health System Equity & Rural Delivery** | Regional Zone Modeling & Multi-Zone Hubs | Prioritized non-HRM zones (Western, Northern, Eastern) to resolve rural access disparities. |
+| **Executive Communication & Reporting** | Power BI Dashboard & Business Case Summaries | Translated quantitative models into clear visual decision frameworks for Treasury Board. |
